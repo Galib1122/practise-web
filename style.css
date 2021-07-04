@@ -1,0 +1,53 @@
+*{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 55px;
+    padding: 3%;
+}
+h3{
+    padding: 2%;
+}
+p{
+    padding: 2%;
+}
+
+span{
+     color: orange;
+}
+
+.color-h3{
+    color: orange;
+}
+
+.flexible-container{
+    display: flex;
+}
+.image-box{
+    width: 50%;
+}
+
+.image-width{
+    width: 75%;
+}
+
+.text-width-box{
+    padding: 7%;
+    width: 50%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.link-button{
+    margin-left: 12px;
+    border-radius: 5px;
+    right: 2px;
+    text-decoration: none;
+    padding: 5px 30px;
+    background-image: linear-gradient(red,orange);
+
+}
