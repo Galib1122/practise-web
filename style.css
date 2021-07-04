@@ -2,7 +2,9 @@
     font-family: 'Fira Sans', sans-serif;
     margin: 0;
 }
+
 h1{
+    cursor: pointer;
     font-size: 55px;
     padding: 3%;
 }
@@ -15,6 +17,10 @@ p{
 
 span{
      color: orange;
+}
+.under-img-txt{
+    margin: 11px;
+    font-size: 30px;
 }
 
 .color-h3{
@@ -41,8 +47,12 @@ span{
     background-repeat: no-repeat;
     background-size: 100%;
 }
+.link-button:hover{
+    color: black ;
+}
 
 .link-button{
+    color: white;
     margin-left: 12px;
     border-radius: 5px;
     right: 2px;
@@ -50,4 +60,7 @@ span{
     padding: 5px 30px;
     background-image: linear-gradient(red,orange);
 
+}
+.team-mem{
+    font-size: 17px;
 }
