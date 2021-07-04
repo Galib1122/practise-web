@@ -9,9 +9,12 @@ h1{
     padding: 3%;
 }
 h3{
+    margin-left: 7px;
     padding: 2%;
 }
+
 p{
+    margin-left: 9px;
     padding: 2%;
 }
 
@@ -42,18 +45,43 @@ span{
     padding: 7%;
     width: 50%;
 }
+
+.text-width-last-box{
+    width: 50%;
+    padding: 2%;
+    box-shadow: 10px 10px 70px black;
+    margin: 0 5% 5% 5%;
+}
+
 .top-banner{
+    margin-bottom: 100px;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+.middle-banner{
+    margin-bottom: 100px;
+    background-position: right;
+    background-image: url(images/middle-banner.png);
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+
+
+}
+.last-banner{
+    background-image: url(images/last-banner.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
 .link-button:hover{
     color: black ;
 }
 
 .link-button{
     color: white;
-    margin-left: 12px;
+    margin-left: 20px;
     border-radius: 5px;
     right: 2px;
     text-decoration: none;
@@ -63,4 +91,15 @@ span{
 }
 .team-mem{
     font-size: 17px;
+}
+#gradient-color-left{
+   border-left: 7px solid;
+  border-image: linear-gradient(rgb(245, 8, 8),rgb(223, 85, 85),orange) 1;
+}
+#gradient-color-right{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,rgb(78, 78, 218),lightblue) 1;
+}
+.footer{
+    text-align: center;
 }
